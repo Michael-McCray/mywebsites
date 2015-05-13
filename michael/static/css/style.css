@@ -4,11 +4,26 @@ body{
 	text-align: center;
 	margin: auto;
 	font-size: 18px;
-	background-color: #e8e8e8; 
+   background-color: #aaccd8; 
 	color: #4A4A4A;
 	font-family: arial;
 }
-
+.add-space form{
+   box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  float: left;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  height: 300px;
+  line-height: 32px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  min-height: 0px;
+  position: relative;
+  visibility: visible;
+  width: 756px;
+}
 
 ul{
 	list-style-type: none;
@@ -33,7 +48,7 @@ h1{
 	margin-top: 20%;
 }
 .top-nav{
-	background-color: #1C1C1C;
+	background-color: #3f6292;
 	position: fixed;
 	top: 0;
 	width: 100%;
