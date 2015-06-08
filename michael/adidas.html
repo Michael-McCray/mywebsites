@@ -13,18 +13,29 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <style>
 	#topImg {
-		height: 50px;
+		height: 80px;
 		width: 100px;
 		float: left;
 	}
-	h1{
+	h1 {
 		text-align: center;
+		font-size: 60px;
+		font-weight: bold;
+		font-family: "Times New Roman", Georgia, Serif;
+	}
+	#slider {
+		margin-right: 30%;
+
+	}
+	p {
+		color: white;
+		 text-shadow: 2px 2px black;
 	}
 </style>
 </head>
 <body>
 	 <div class="navbar navbar-default">
-	    <img src="static/img/bk.jpg" alt="bk" id="topImg">
+	    <img src="static/img/img-3.jpg" alt="bk" id="topImg">
 	    <div class="nav navbar-nav navbar-right">
 			<form class="form-inline">
 			  <div class="form-group">
@@ -44,7 +55,7 @@
 			</form>
 	      </div>
 	   </div>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -54,20 +65,17 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.html">KicksMixx </a>
+	      <a class="navbar-brand">Pick Your Kicks</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="#">Customize <span class="sr-only">(current)</span></a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	          <ul class="dropdown-menu" role="menu">
+	     		<li><a href="index.html">Home</a></li>
 	            <li><a href="nike.html">Nike</a></li>
 	            <li><a href="adidas.html">Adidas</a></li>
 	            <li><a href="jordan.html">Jordan</a></li>
-	            <li><a href="Etc..html">Etc.</a></li>
 	          </ul>
 	        </li>
 	      </ul>
@@ -81,9 +89,9 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
  <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <h1>Adidas News</h1>
+    <div class="jumbotron" id="slider">
       <div class="container">
-        <h1>Adidas News</h1>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -103,16 +111,17 @@
 		      </div>
 		    </div>
 
-		    <div class="item">
-		     <img src="static/img/bk.jpg" alt="bk">
+		   <div class="item">
+		     <img src="static/img/adidas2.jpg" alt="bk">
 		      <div class="carousel-caption">
-		      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-		      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+		      <p align="center">UNDFT X ADIDAS ORIGINALS LOS ANGELES</p>
+		      <p>Adidas unveils it’s latest lifestyle silhouette with a big bang – the Los Angeles, a updated variant of the classic LA Trainer style is already available at adidas retailers, but something special is about to be released very soon. Adidas Consortium teamed up with LA based...</p>
+		      <p><a class="btn btn-primary btn-lg" href="http://sneakers-magazine.com/undft-x-adidas-originals-los-angeles/" role="button" target="_blank">Read More &raquo;</a></p>
 		      </div>
 		    </div>
 
 		    <div class="item">
-		      <<img src="static/img/bk.jpg" alt="bk">
+		      <img src="static/img/bk.jpg" alt="bk">
 		      <div class="carousel-caption">
 		      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
 		      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
