@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sneaker Daily</title>
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<!-- Latest compiled and minified JavaScript -->
+<script type="text/javascript" src="static/js/jquery-2.1.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<title>Pinball Website Template | Home :: w3layouts</title>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    </script>
+    <style>
+    h2{
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      font-family: "Times New Roman", Georgia, Serif;
+      text-shadow: 3px 3px #9e9e9e;
+    }
+
+    </style>
+    <!----webfonts---->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!----//webfonts---->
+    <!-- Global CSS for the page and tiles -->
+      <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+         <script type="text/javascript">
+      var $ = jQuery.noConflict();
+        $(function() {
+          $('#activator').click(function(){
+            $('#box').animate({'top':'0px'},500);
+          });
+          $('#boxclose').click(function(){
+          $('#box').animate({'top':'-700px'},500);
+          });
+        });
+        $(document).ready(function(){
+        //Hide (Collapse) the toggle containers on load
+        $(".toggle_container").hide(); 
+        //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+        $(".trigger").click(function(){
+          $(this).toggleClass("active").next().slideToggle("slow");
+            return false; //Prevent the browser jump to the link anchor
+        });
+                  
+      });
+    </script>
+    
+</head>
+<body>
+<divg  class="col-xs-12" style="height:100px; margin-bottom: 0">
+  <center id="center">
+    <img src="static/img/add.jpg" align="center" style="width:75%;" alt="bk">
+  </center>
+</div>
+<nav class="navbar navbar-inverse" style="margin-top: 0">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Pick My Kicks</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav"style="font-family: impact; font-size: 14px">
+        <li class="active"><a href="custom.html">Customizers<span class="sr-only">(current)</span></a></li>
+        <li><a href="nike.html">Nike</a></li>
+        <li><a href="jordan.html">Jordan</a></li>
+        <li><a href="adidas.html">Adidas</a></li>
+        <li><a href="Etc..html">DIY</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+           	  <div class="navbar navbar-default">
+	    <div class="nav navbar-nav navbar-right">
+			<form class="form-inline">
+			  <div class="form-group">
+			    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+			  </div>
+			  <div class="form-group">
+			    <label class="sr-only" for="exampleInputPassword3">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Remember me
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Sign in</button>
+			</form>
+	      </div>
+	   </div>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <h1 style="text-align: center;font-size: 60px;font-weight: bold;font-family: impact; text-shadow: 3px 3px #9e9e9e;">Customizers</h1>
+    <div class="content">
+      <div class="wrap">
+       <div id="main" role="main">
+            <ul id="tiles">
+              <!-- These are our grid blocks -->
+              <li onclick="https://instagram.com/elcappy/">
+                <img src="static/img/cappy.png" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://instagram.com/elcappy/">El Cappy</a></h3>
+                    <p>Mr. one-of-one himself, Eric Lowry has made a name for himself by never recreating his designs. In a custom sneaker culture where colorflips and blacked out midsoles are currently in high demand, El Cappy chooses originality instead of mass producing generic copies.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="http://c2customs.com/featured.html">
+                <img src="static/img/c2.png" width="360" height="220">
+            <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="http://c2customs.com/featured.html">C2 Customs</a></h3>
+                    <p>How many artists do you know to have made it into Time Magazine by age 15? Probably only one, and that's Chris Hui. He began customizing $2.50 shoes from his local Goodwill and worked his way up to creating pairs for Kanye West, MLB first baseman Prince Fielder, and Lebron James. He now has over 400 pairs logged, numerous magazine features including our own, television appearances including NBC's Last Call with Carson Daly, and he was selected as an Apple Inc. "Student Rockstar Learner." Chris now has a degree in marketing and works for Adidas, not too shabby for a kid who started painting thrift shop kicks.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+          </li>
+              <li onclick="https://twitter.com/Royalefam">
+                <img src="static/img/sbtg.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://twitter.com/Royalefam">SBTG</a></h3>
+                    <p>Anyone who knows shoes, knows SBTG (Sabatoge) if only for his collaboration with Nike SB on the August 2006 release of the SBTG Dunk Low SB, but Mark Ong started as a hobbyist, painting shoes in his parents' kitchen. After winning a custom competition on Niketalk, the rest is history. Brand collaboration after brand collaboration, SBTG earned his spot as one of the "50 Most Influential People in Sneaker History."</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="location.href='single-page.html';">
+                <img src="static/img/meth.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="#">Methamphibian</a></h3>
+                    <p>One word to describe Methamphibian would be "pioneer." As one of The 30 Most Influential Niketalk Members of All Time as well as one of the 50 Most Influential People In Sneaker History (along with SBTG), Methamphibian was customizing before the hype. When he isn't collaborating with brands like the Hundreds, Meth still likes to get back to his roots. Brandon of Paintorthread.com calls him the Mache of his time, an inspiration for many to try their hand at creating unique footwear for the love and not the check, though he gets those too.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="https://instagram.com/chris_reason/">
+                <img src="static/img/diver.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://instagram.com/chris_reason/">Diversitile</a></h3>
+                    <p>Diversitile brings a certain flare to customizing. A lot of their customs are inspired by other art forms, such as film, art nouveau, and music. They exist in the space between painted customs and full reconstructions, often utilizing textures and accessories in work that is distinctly their own.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="https://instagram.com/whatsshop/">
+                <img src="static/img/what.png" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://instagram.com/whatsshop/">What's Shop</a></h3>
+                    <p>This Thailand-based custom shoe company does not get the attention it deserves. Dealing mostly with canvas shoes, What's Shop paints everything from superheroes to life-like portraits and colorful landscapes with an incredible attention to detail.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="https://instagram.com/jwdanklefs/">
+                <img src="static/img/dank.jpg" width="360" height="220">
+            <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://instagram.com/jwdanklefs/">Dank Customs</a></h3>
+                    <p>Jake Danklefs of Dank Customs is winning the Customizer of the Year award so far according to his contemporary Emmanuelabor. Week after week he unveils the cleanest custom flips that leave even veteran customizers scratching their heads trying to figure out how they were executed. We've seen M.F. Doom, Skunk and De La Soul inspired Air Max 1s and Salmon Toe, Liberty and Kidrobot inspired Air Max 90s. Keep an eye out for Dank, we guarantee that you'll be seeing a lot of good work from him in the near future.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+          </li>
+            <li onclick="https://www.facebook.com/3Rcustoms">
+                <img src="static/img/3r.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://www.facebook.com/3Rcustoms">3R Customs</a></h3>
+                    <p>There are reconstructed sneakers and then there are 3r-constructed sneakers. 3R Customs (aka Jest3r) is one of the originators of the craft and remains the teacher. His shoes are flawless and look factory made. Look at the images above and you'll see why he more than deserves a place on this list.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+               <li onclick="http://www.yoakustoms.com/enter.html">
+                <img src="static/img/yoa.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="http://www.yoakustoms.com/enter.html">Yoakustoms</a></h3>
+                    <p>Amanda of Yoakustoms hasn't been as active as she was a few years ago, but that doesn't mean that people should sleep on her. Her work in the 2009 Clash of the Customizers competition alone deserves more attention than half of the work you see on blogs today, and if you see the teasers that she drops occasionally on Instagram, you know she hasn't lost her touch.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="https://twitter.com/THE_WOLFSTEIN">
+                <img src="static/img/bri.jpg" width="360" height="220">
+            <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://twitter.com/THE_WOLFSTEIN">Brian Villanueva</a></h3>
+                    <p>What Brian Villanueva does with electronics is beyond sneaker customizing. The concept and end result seem simple enough, but there is more to it than sticking LEDs in a shoe and adding a battery. We would explain just how involved the process is, but we have no idea. </p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+          </li>
+              <li onclick="https://twitter.com/JBFcustom">
+                <img src="static/img/jbf.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="https://twitter.com/JBFcustoms">JBF Customs</a></h3>
+                    <p>These days if you think high-quality materials and customs, you think JBF. Jake has been at it for a number of years but his fanbase has grown exponentially in the past year or so with his use of snakeskins and other luxury materials on snapbacks and Jordans. Jake has a few process videos on Youtube and if you search hard enough you can probably find his step-by-step tutorial online, but he can't teach talent so don't get your hopes up.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+              <li onclick="http://sekured.com/">
+                <img src="static/img/sek.jpg" width="360" height="220">
+                <div class="post-info">
+                  <div class="post-basic-info">
+                    <h3><a href="http://sekured.com/">Sekure D</a></h3>
+                    <p>Australia's own, Sekure D has a laundry list of achievements under his belt so far with no signs of slowing down. He has been featured and interviewed in numerous magazines, from Sneaker Freaker and Sole Collector to Juxtapoz and Voyeur, and has appeared at various exhibitions and conventions around the world. Among his many apparel, mural, and art design clients are Puma, Jordan Brand, Footlocker, Adidas, Hype DC, and Globe, with whom he has done two sneaker collaborations. Sekure D also customizes vinyl toys and over time has built a relationship with Kidrobot.</p>
+                  </div>
+                  <div class="post-info-rate-share">
+                    <div class="rateit">
+                      <span> </span>
+                    </div>
+                    <div class="post-share">
+                      <span> </span>
+                    </div>
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <!---//End-content---->
+    <!----wookmark-scripts---->
+      <script src="js/jquery.imagesloaded.js"></script>
+      <script src="js/jquery.wookmark.js"></script>
+      <script type="text/javascript">
+        (function ($){
+          var $tiles = $('#tiles'),
+              $handler = $('li', $tiles),
+              $main = $('#main'),
+              $window = $(window),
+              $document = $(document),
+              options = {
+                autoResize: true, // This will auto-update the layout when the browser window is resized.
+                container: $main, // Optional, used for some extra CSS styling
+                offset: 20, // Optional, the distance between grid items
+                itemWidth:280 // Optional, the width of a grid item
+              };
+          /**
+           * Reinitializes the wookmark handler after all images have loaded
+           */
+          function applyLayout() {
+            $tiles.imagesLoaded(function() {
+              // Destroy the old handler
+              if ($handler.wookmarkInstance) {
+                $handler.wookmarkInstance.clear();
+              }
+    
+              // Create a new layout handler.
+              $handler = $('li', $tiles);
+              $handler.wookmark(options);
+            });
+          }
+          /**
+           * When scrolled all the way to the bottom, add more tiles
+           */
+          function onScroll() {
+            // Check if we're within 100 pixels of the bottom edge of the broser window.
+            var winHeight = window.innerHeight ? window.innerHeight : $window.height(), // iphone fix
+                closeToBottom = ($window.scrollTop() + winHeight > $document.height() - 100);
+    
+            if (closeToBottom) {
+              // // Get the first then items from the grid, clone them, and add them to the bottom of the grid
+              // var $items = $('li', $tiles),
+              //     $firstTen = $items.slice(0, 10);
+              // $tiles.append($firstTen.clone());
+    
+              applyLayout();
+            }
+          };
+    
+          // Call the layout function for the first time
+          applyLayout();
+    
+          // Capture scroll event.
+          $window.bind('scroll.wookmark', onScroll);
+        })(jQuery);
+      </script>
+  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<nav class="navbar navbar-inverse" style="padding: 0;">
+     <footer class="customfooter">
+     <div class="container-fluid" style="padding: 0;">
+           <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6" id="trademark2">
+          <h3 style="text-align:left;margin-left:15px; font-size: 15px;">&#169 Pick My Kicks 2015</h3>
+          </div>
+            <div class="col-xs-6" align="right" id="social2">
+                <img src="images/Facebook.png" alt="Mountain View" style="width:30px;height:30px;">
+                <img src="images/twitter.png" alt="Mountain View" style="width:30px;height:30px;">
+                <img src="images/instagram.png" alt="Mountain View" style="width:30px;height:30px;">
+                <img src="images/tumblr.png" alt="Mountain View" style="width:30px;height:30px;">
+            </div>
+        </div>
+        </div>
+        </footer>
+        </nav>
+</body>
+<script type="text/javascript" src="static/js/code.js"></script>
+</html>
